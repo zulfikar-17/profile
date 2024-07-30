@@ -1,0 +1,41 @@
+@font-face {
+      font-family: "JosefinSans-Medium";
+      src: url("../fonts/JosefinSans-Medium.ttf") format("truetype");
+      font-weight: normal;
+      font-style: normal;
+    }
+    .project-container {
+      grid-template-columns: 25vw 50vw 25vw;
+      grid-template-rows: 100%;
+      grid-template-areas: "btnLeft Project btnRight";
+    }
+    .project {
+      grid-area: Project;
+    }
+    @media (max-width: 640px) {
+      .project-container {
+        grid-template-columns: 15vw 70vw 15vw;
+        grid-template-rows: 100%;
+        grid-template-areas: "btnLeft Project btnRight";
+      }
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    th {
+      border: 2px solid #a5a5a5;
+      padding: 3px;
+      text-align: center;
+    }
+    td {
+      border: 2px solid #797979;
+      padding: 3px;
+      font-weight: bolder;
+    }
+    html {
+      scroll-behavior: smooth;
+    }
+    * {
+      font-family: "Courier New", Courier, monospace;
+    }

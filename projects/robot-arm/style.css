@@ -1,0 +1,52 @@
+@media (max-width: 640px) {
+            .span-category-date {
+                font-size: 10px;
+            }
+
+            .header-container {
+                padding-left: 10px;
+                padding-right: 10px;
+            }
+
+            .line-date svg {
+                width: 20px;
+                height: 20px;
+            }
+
+            .header-container h1 {
+                font-size: 18px;
+                margin-left: 0;
+            }
+
+            .article-content {
+                width: 100%;
+            }
+            .writer span {
+                font-size: 10px;
+                text-underline-offset: 2px;
+            }
+            .writer svg {
+                width: 15px;
+                height: 15px;
+            }
+            .writer {
+                padding-left: 5px;
+                padding-right: 5px;
+            }
+        }
+
+        @media (max-width: 960px) {
+            .header-container {
+                padding-top: 100px;
+                padding-bottom: 50px;
+            }
+
+            .line-date svg {
+                width: 25px;
+                height: 25px;
+            }
+
+            .span-category-date {
+                font-size: 12px;
+            }
+        }
